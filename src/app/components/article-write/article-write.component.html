@@ -1,0 +1,12 @@
+
+<div id="editor"></div>
+<p>article-write works!</p>
+<input [(ngModel)]="blogTitle" type="text">
+<quill-editor class="content-editor" [(ngModel)]="blogContent"></quill-editor>
+
+<button (click)="submitPost()">Post Content</button>
+
+<section class="preview">
+    
+</section>
+

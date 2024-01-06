@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(33, 33, 33);
+    max-width: fit-content;
+    font-size: var(--sm-font);
+    margin: 20px auto; 
+    padding: 15px;
+    border-radius: 30px;
+    font-family: 'IBM Plex Sans';
+    background-color: #000000be;
+    position: sticky;
+}
+
+.nav-item{
+    margin: 0 15px;
+}
+
+.nav-item:hover{
+    color: #a6a6a6;
+}
+
+.log-state{
+    background-color: var(--textcolor);
+    color: var(--bgcolor);
+    padding: 2px 8px;
+    border-radius: 15px;
+}
+

@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bgcolor: #010314;
+    --textcolor: #faf4ff;
+
+    --border: #161616;
+
+    --sm-font: 16px;
+}
+
+body,html{
+    /* background-color: var(--bgcolor); */
+    /* color: var(--textcolor); */
+}
+

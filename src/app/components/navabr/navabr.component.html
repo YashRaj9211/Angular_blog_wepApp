@@ -1,0 +1,12 @@
+<div class="navbar">
+  <button class="nav-item" routerLink="/">Home</button>
+  <button class="nav-item" routerLink="/write">Write</button>
+  <!-- <button class="nav-item" routerLink="/help">Help</button> -->
+
+  @if(isLoggedIn){
+  <button class="nav-item log-state" (click)="logout()">Logout</button>
+  }@else {
+  <button class="nav-item" routerLink="/register">Register</button>
+  <button class="nav-item" routerLink="/login">Login</button>
+  }
+</div>
